@@ -1,0 +1,32 @@
+---
+title: "How to write an R package and submit it to Github"
+author: "Aya Mitani"
+date: "2021/01/07"
+output: 
+  beamer_presentation:
+    slide_level: 3
+    keep_tex: true
+    includes:
+      in_header: preamble.txt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### What is R package?
+- Collection of code, data, documentation developed by R community
+- Popular R packages 
+  + dplyr
+  + ggplot2
+
+### What is Github?
+
+### Why write R package?
+
+### Why publish package on Github?
+
+### What do you need to write R package?
+
+### Let's begin!
+
