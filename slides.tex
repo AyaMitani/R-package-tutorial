@@ -111,7 +111,7 @@
 \begin{document}
 \frame{\titlepage}
 
-\begin{frame}{What is R package?}
+\begin{frame}[fragile]{What is R package?}
 \protect\hypertarget{what-is-r-package}{}
 
 \begin{itemize}
@@ -132,9 +132,9 @@
   \begin{itemize}
   \tightlist
   \item
-    dplyr
+    \texttt{dplyr}
   \item
-    ggplot2
+    \texttt{ggplot2}
   \end{itemize}
 \end{itemize}
 
@@ -155,17 +155,31 @@
   Free basic services
 \end{itemize}
 
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/GitHub.png}
+\end{figure}
+
 \end{frame}
 
-\hypertarget{why-write-r-package}{%
-\subsection{\#\#\# Why write R package?}\label{why-write-r-package}}
+\begin{frame}{Why write R package?}
+\protect\hypertarget{why-write-r-package}{}
 
 \begin{itemize}
 \tightlist
 \item
-  Increasingly, (bio)statistical journals ask for R package development
-  of novel method
+  For yourself
+\item
+  For others
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Increasingly, (bio)statistical journals ask for R package
+    development of novel method
+  \end{itemize}
 \end{itemize}
+
+\end{frame}
 
 \begin{frame}{Why publish package on GitHub?}
 \protect\hypertarget{why-publish-package-on-github}{}
@@ -184,25 +198,60 @@
 
 \end{frame}
 
-\begin{frame}{What do you need to write R package?}
+\begin{frame}[fragile]{What do you need to write R package?}
 \protect\hypertarget{what-do-you-need-to-write-r-package}{}
 
 \begin{itemize}
 \tightlist
 \item
-  R
+  R Studio
 \item
-  R Studio very useful
-\item
-  devtools package
+  \texttt{devtools} package
 \item
   GitHub account
 \end{itemize}
 
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/Rstudio.png}
+\end{figure}
+
 \end{frame}
 
-\begin{frame}{Let's begin!}
+\begin{frame}[fragile]{Let's begin!}
 \protect\hypertarget{lets-begin}{}
+
+\textbf{Major steps}
+
+\begin{enumerate}
+\tightlist
+\item
+  Create new repo in GitHub
+
+  \begin{enumerate}
+  [i)]
+  \tightlist
+  \item
+    Copy URL
+  \end{enumerate}
+\item
+  Open R Studio
+
+  \begin{enumerate}
+  [i)]
+  \tightlist
+  \item
+    New Project \(\rightarrow\) Version Control \(\rightarrow\) Git
+    \(\rightarrow\) Enter info \(\rightarrow\) Create Project
+  \item
+    Install \texttt{devtools}
+  \item
+    Build package
+  \end{enumerate}
+\item
+  Pull + Commit + Push
+\item
+  Use/share package with \texttt{install\_github()}!
+\end{enumerate}
 
 \end{frame}
 

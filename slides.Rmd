@@ -20,8 +20,8 @@ knitr::opts_chunk$set(echo = FALSE)
 - Core set of packages come with base R
 - $>$ 15,000 Additional packages available from CRAN, Bioconductor, Omegahat, GitHub, etc.
 - Popular R packages 
-  + dplyr
-  + ggplot2
+  + `dplyr`
+  + `ggplot2`
 
 \begin{figure}
   \includegraphics[scale=0.2]{slides_files/figure-beamer/dplyrggplot2.png}
@@ -31,9 +31,14 @@ knitr::opts_chunk$set(echo = FALSE)
 - Website that hosts software development and version control using Git
 - Free basic services
 
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/GitHub.png}
+\end{figure}
+
 ### Why write R package?
-- 
-- Increasingly, (bio)statistical journals ask for R package development of novel method
+* For yourself
+* For others
+  + Increasingly, (bio)statistical journals ask for R package development of novel method
 
 ### Why publish package on GitHub?
 - Reproducibility
@@ -42,10 +47,24 @@ knitr::opts_chunk$set(echo = FALSE)
 - Back-up method
 
 ### What do you need to write R package?
-- R
-- R Studio very useful
-- devtools package
+- R Studio 
+- `devtools` package
 - GitHub account
 
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/Rstudio.png}
+\end{figure}
+
 ### Let's begin!
+**Major steps**
+
+1. Create new repo in GitHub
+    i) Copy URL
+2. Open R Studio
+    i) New Project $\rightarrow$ Version Control $\rightarrow$ Git $\rightarrow$ Enter info $\rightarrow$ Create Project
+    ii) Install `devtools` 
+    iii) Build package
+3. Pull + Commit + Push
+4. Use/share package with `install_github()`!
+
 
