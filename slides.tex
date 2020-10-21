@@ -74,7 +74,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={How to write an R package and submit it to Github},
+  pdftitle={How to write an R package and publish it on GitHub},
   pdfauthor={Aya Mitani},
   pdfborder={0 0 0},
   breaklinks=true}
@@ -94,6 +94,7 @@
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{amsmath}
+\usepackage{float}
 \usefonttheme[onlymath]{serif}
 \AtBeginPart{}
 \AtBeginSection{}
@@ -103,7 +104,7 @@
 \newcommand{\btwocol}{\begin{multicols}{2}}
 \newcommand{\etwocol}{\end{multicols}}
 
-\title{How to write an R package and submit it to Github}
+\title{How to write an R package and publish it on GitHub}
 \author{Aya Mitani}
 \date{2021/01/07}
 
@@ -118,6 +119,14 @@
 \item
   Collection of code, data, documentation developed by R community
 \item
+  Addresses particular problem with specialised statistical technique,
+  graphical device, etc.
+\item
+  Core set of packages come with base R
+\item
+  \(>\) 15,000 Additional packages available from CRAN, Bioconductor,
+  Omegahat, GitHub, etc.
+\item
   Popular R packages
 
   \begin{itemize}
@@ -129,25 +138,66 @@
   \end{itemize}
 \end{itemize}
 
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/dplyrggplot2.png}
+\end{figure}
+
 \end{frame}
 
-\begin{frame}{What is Github?}
+\begin{frame}{What is GitHub?}
 \protect\hypertarget{what-is-github}{}
 
+\begin{itemize}
+\tightlist
+\item
+  Website that hosts software development and version control using Git
+\item
+  Free basic services
+\end{itemize}
+
 \end{frame}
 
-\begin{frame}{Why write R package?}
-\protect\hypertarget{why-write-r-package}{}
+\hypertarget{why-write-r-package}{%
+\subsection{\#\#\# Why write R package?}\label{why-write-r-package}}
 
-\end{frame}
+\begin{itemize}
+\tightlist
+\item
+  Increasingly, (bio)statistical journals ask for R package development
+  of novel method
+\end{itemize}
 
-\begin{frame}{Why publish package on Github?}
+\begin{frame}{Why publish package on GitHub?}
 \protect\hypertarget{why-publish-package-on-github}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Reproducibility
+\item
+  Accessibility
+\item
+  Collaboration
+\item
+  Back-up method
+\end{itemize}
 
 \end{frame}
 
 \begin{frame}{What do you need to write R package?}
 \protect\hypertarget{what-do-you-need-to-write-r-package}{}
+
+\begin{itemize}
+\tightlist
+\item
+  R
+\item
+  R Studio very useful
+\item
+  devtools package
+\item
+  GitHub account
+\end{itemize}
 
 \end{frame}
 

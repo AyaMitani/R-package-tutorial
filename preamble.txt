@@ -2,6 +2,7 @@
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{amsmath}
+\usepackage{float}
 \usefonttheme[onlymath]{serif}
 \AtBeginPart{}
 \AtBeginSection{}

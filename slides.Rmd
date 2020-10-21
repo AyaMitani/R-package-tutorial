@@ -1,5 +1,5 @@
 ---
-title: "How to write an R package and submit it to Github"
+title: "How to write an R package and publish it on GitHub"
 author: "Aya Mitani"
 date: "2021/01/07"
 output: 
@@ -16,17 +16,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### What is R package?
 - Collection of code, data, documentation developed by R community
+- Addresses particular problem with specialised statistical technique, graphical device, etc. 
+- Core set of packages come with base R
+- $>$ 15,000 Additional packages available from CRAN, Bioconductor, Omegahat, GitHub, etc.
 - Popular R packages 
   + dplyr
   + ggplot2
 
-### What is Github?
+\begin{figure}
+  \includegraphics[scale=0.2]{slides_files/figure-beamer/dplyrggplot2.png}
+\end{figure}
+
+### What is GitHub?
+- Website that hosts software development and version control using Git
+- Free basic services
 
 ### Why write R package?
+- 
+- Increasingly, (bio)statistical journals ask for R package development of novel method
 
-### Why publish package on Github?
+### Why publish package on GitHub?
+- Reproducibility
+- Accessibility
+- Collaboration
+- Back-up method
 
 ### What do you need to write R package?
+- R
+- R Studio very useful
+- devtools package
+- GitHub account
 
 ### Let's begin!
 

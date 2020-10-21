@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.28)  20 OCT 2020 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.28)  21 OCT 2020 11:55
 entering extended mode
 **./slides.tex
 (slides.tex
@@ -776,32 +776,37 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip77
 \rot@float@box=\box79
 \rot@mess@toks=\toks51
+) ("C:\Program Files\MiKTeX\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count332
+\float@exts=\toks52
+\float@box=\box80
+\@float@everytoks=\toks53
+\@floatcapt=\box81
 ) ("C:\Program Files\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty") ("C:\Pr
 ogram Files\MiKTeX\tex/latex/tools\multicol.sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count332
-\mult@box=\box80
+\c@tracingmulticols=\count333
+\mult@box=\box82
 \multicol@leftmargin=\dimen295
-\c@unbalance=\count333
-\c@collectmore=\count334
-\doublecol@number=\count335
-\multicoltolerance=\count336
-\multicolpretolerance=\count337
+\c@unbalance=\count334
+\c@collectmore=\count335
+\doublecol@number=\count336
+\multicoltolerance=\count337
+\multicolpretolerance=\count338
 \full@width=\dimen296
 \page@free=\dimen297
 \premulticols=\dimen298
 \postmulticols=\dimen299
 \multicolsep=\skip78
 \multicolbaselineskip=\skip79
-\partial@page=\box81
-\last@line=\box82
+\partial@page=\box83
+\last@line=\box84
 \maxbalancingoverflow=\dimen300
-\mult@rightbox=\box83
-\mult@grightbox=\box84
-\mult@gfirstbox=\box85
-\mult@firstbox=\box86
-\@tempa=\box87
-\@tempa=\box88
+\mult@rightbox=\box85
+\mult@grightbox=\box86
+\mult@gfirstbox=\box87
+\mult@firstbox=\box88
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
@@ -837,40 +842,42 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box121
 \@tempa=\box122
 \@tempa=\box123
-\c@minrows=\count338
-\c@columnbadness=\count339
-\c@finalcolumnbadness=\count340
+\@tempa=\box124
+\@tempa=\box125
+\c@minrows=\count339
+\c@columnbadness=\count340
+\c@finalcolumnbadness=\count341
 \last@try=\dimen301
 \multicolovershoot=\dimen302
 \multicolundershoot=\dimen303
-\mult@nat@firstbox=\box124
-\colbreak@box=\box125
-\mc@col@check@num=\count341
+\mult@nat@firstbox=\box126
+\colbreak@box=\box127
+\mc@col@check@num=\count342
 ) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count342
-\l__pdf_internal_box=\box126
+\l__kernel_color_stack_int=\count343
+\l__pdf_internal_box=\box128
 ) (slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -907,24 +914,24 @@ LaTeX Font Info:    ... okay on input line 110.
 
 ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
+\scratchcounter=\count344
 \scratchdimen=\dimen304
-\scratchbox=\box127
-\nofMPsegments=\count344
-\nofMParguments=\count345
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count346
+\scratchbox=\box129
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count347
 \MPscratchDim=\dimen305
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks55
 ) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box128
-Package hyperref Info: Link coloring OFF on input line 110.
+\AtBeginShipoutBox=\box130
+Package hyperref Info: Link coloring OFF on input line 111.
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
@@ -932,11 +939,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count349
+\c@section@level=\count350
 )
-LaTeX Info: Redefining \ref on input line 110.
-LaTeX Info: Redefining \pageref on input line 110.
-LaTeX Info: Redefining \nameref on input line 110.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
 
 ("C:\Program Files\MiKTeX\tex/latex/translator\translator-basic-dictionary-Engl
 ish.dict"
@@ -962,14 +969,14 @@ Dictionary: translator-numbers-dictionary, Language: English
 glish.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 110.
+LaTeX Info: Redefining \microtypecontext on input line 111.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 110.
+LaTeX Info: Redefining \showhyphens on input line 111.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -978,27 +985,75 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 (slides.nav)
-Overfull \vbox (44.55624pt too high) detected at line 111
+Overfull \vbox (44.55624pt too high) detected at line 112
  []
 
 [1
 
 {C:/Users/Aya/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-132.
+145.
 ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+45.
+("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) ("C:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+45.
+("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+145.
+("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+145.
+("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 145.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 145.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 145.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 145
+.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) ("C:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 145
+.
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) ("C:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+<slides_files/figure-beamer/dplyrggplot2.png, id=21, 361.35pt x 210.18526pt>
+File: slides_files/figure-beamer/dplyrggplot2.png Graphic file (type png)
+<use slides_files/figure-beamer/dplyrggplot2.png>
+Package pdftex.def Info: slides_files/figure-beamer/dplyrggplot2.png  used on i
+nput line 145.
+(pdftex.def)             Requested size: 72.2687pt x 42.0363pt.
+[2
 
-] [3
+ <./slides_files/figure-beamer/dplyrggplot2.png>] [3
 
 ] [4
 
 ] [5
 
 ] [6
-
-] [7
 
 ]
 \tf@nav=\write5
@@ -1010,27 +1065,29 @@ File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@snm=\write7
 \openout7 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
 (slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
- 26760 strings out of 480790
- 506750 string characters out of 2907061
- 768883 words of memory out of 3000000
- 42189 multiletter control sequences out of 15000+200000
- 559276 words of font info for 43 fonts, out of 3000000 for 9000
+ 27087 strings out of 480790
+ 513106 string characters out of 2907061
+ 771277 words of memory out of 3000000
+ 42459 multiletter control sequences out of 15000+200000
+ 571698 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,100p,1831b,734s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKT
-eX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/
-lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on slides.pdf (7 pages, 69720 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/M
+iKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm
+/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx
+10.pfb>
+Output written on slides.pdf (6 pages, 158612 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 6187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 8248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
