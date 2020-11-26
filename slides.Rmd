@@ -19,11 +19,11 @@ library(here)
 library(devtools)
 ```
 
-### What is R package?
-- Collection of code, data, documentation developed by R community
+### What is an R package?
+- Collection of code, data, documentation developed by the R community
 - Addresses particular problem with specialized statistical technique, graphical device, etc. 
-- Core set of packages come with base R
-- $>$ 15,000 Additional packages available from CRAN, Bioconductor, Omegahat, GitHub, etc.
+- A core set of packages comes with base R
+- $>$ 15,000 Additional packages are available from CRAN, Bioconductor, Omegahat, GitHub, etc.
 - Popular R packages 
   + `dplyr`
   + `ggplot2`
