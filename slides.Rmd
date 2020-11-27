@@ -82,11 +82,10 @@ library(devtools)
 
 \small
 1. Open R Studio
-    i) New Project $\rightarrow$ New Directory $\rightarrow$ New Project $\rightarrow$ Enter info $\rightarrow$ Create Project
-    ii) Load `devtools` 
-    iii) Build package with function `devtools::create_package`
+    i) New Project $\rightarrow$ New Directory $\rightarrow$ R Package $\rightarrow$ Enter info $\rightarrow$ Create Project
 2. Write functions 
     i) Each function should be saved in its own file
+    ii) Write package description and document functions
 3. Create new repo in GitHub
     i) Repo name $=$ package name
 4. Connect to GitHub
@@ -95,6 +94,27 @@ library(devtools)
 
 \centering
 \alert{There is more than one way!}
+
+
+
+<!-- ### Let's begin! -->
+<!-- **Major steps** -->
+
+<!-- \small -->
+<!-- 1. Open R Studio -->
+<!--     i) New Project $\rightarrow$ New Directory $\rightarrow$ New Project $\rightarrow$ Enter info $\rightarrow$ Create Project -->
+<!--     ii) Load `devtools`  -->
+<!--     iii) Build package with function `devtools::create_package` -->
+<!-- 2. Write functions  -->
+<!--     i) Each function should be saved in its own file -->
+<!-- 3. Create new repo in GitHub -->
+<!--     i) Repo name $=$ package name -->
+<!-- 4. Connect to GitHub -->
+<!-- 5. Pull + Commit + Push -->
+<!-- 6. Use/share package with `install_github()`! -->
+
+<!-- \centering -->
+<!-- \alert{There is more than one way!} -->
 
 
 ### Naming R package
@@ -118,6 +138,18 @@ library(available)
 ```{r}
 available("ayapack", browse = FALSE)
 ```
+
+
+### In RStudio
+* New Project $\rightarrow$ New Directory $\rightarrow$ R Package
+  - Enter package name
+  - Optional: Select R scripts that include your functions (if you leave blank, a default function is included)
+  - Select subdirectory where you want to save the package (location is not too important since the final product will be saved on Github)
+  - Check \alert{`Create a git repository`}
+  
+\begin{figure}
+  \includegraphics[scale=0.4]{slides_files/figure-beamer/Rstudio_packagesetup.png}
+\end{figure}
 
 
 
