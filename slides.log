@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.22)  24 OCT 2020 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.7)  21 DEC 2020 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **slides.tex
 (./slides.tex
-LaTeX2e <2020-10-01> patch level 1
-L3 programming layer <2020-10-05> xparse <2020-03-03> (c:/Users/ayami/AppData/R
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-03> xparse <2020-03-03> (c:/Users/ayami/AppData/R
 oaming/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2020/07/22 v3.59 A class for typesetting presentations
 
@@ -14,20 +14,20 @@ odes.sty
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count175
+\etb@tempcnta=\count177
 )
 \beamer@tempbox=\box47
-\beamer@tempcount=\count176
-\c@beamerpauses=\count177
+\beamer@tempcount=\count178
+\c@beamerpauses=\count179
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbased
 ecode.sty
-\beamer@slideinframe=\count178
-\beamer@minimum=\count179
+\beamer@slideinframe=\count180
+\beamer@minimum=\count181
 \beamer@decode@box=\box48
 )
 \beamer@commentbox=\box49
-\beamer@modecount=\count180
+\beamer@modecount=\count182
 ) (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.st
 y
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
@@ -57,25 +57,25 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionbox=\box53
 \beamer@logobox=\box54
 \beamer@linebox=\box55
-\beamer@sectioncount=\count181
-\beamer@subsubsectionmax=\count182
-\beamer@subsectionmax=\count183
-\beamer@sectionmax=\count184
-\beamer@totalheads=\count185
-\beamer@headcounter=\count186
-\beamer@partstartpage=\count187
-\beamer@sectionstartpage=\count188
-\beamer@subsectionstartpage=\count189
-\beamer@animationtempa=\count190
-\beamer@animationtempb=\count191
-\beamer@xpos=\count192
-\beamer@ypos=\count193
-\beamer@ypos@offset=\count194
-\beamer@showpartnumber=\count195
-\beamer@currentsubsection=\count196
-\beamer@coveringdepth=\count197
-\beamer@sectionadjust=\count198
-\beamer@tocsectionnumber=\count199
+\beamer@sectioncount=\count183
+\beamer@subsubsectionmax=\count184
+\beamer@subsectionmax=\count185
+\beamer@sectionmax=\count186
+\beamer@totalheads=\count187
+\beamer@headcounter=\count188
+\beamer@partstartpage=\count189
+\beamer@sectionstartpage=\count190
+\beamer@subsectionstartpage=\count191
+\beamer@animationtempa=\count192
+\beamer@animationtempb=\count193
+\beamer@xpos=\count194
+\beamer@ypos=\count195
+\beamer@ypos@offset=\count196
+\beamer@showpartnumber=\count197
+\beamer@currentsubsection=\count198
+\beamer@coveringdepth=\count199
+\beamer@sectionadjust=\count266
+\beamer@tocsectionnumber=\count267
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseo
 ptions.sty
@@ -94,9 +94,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -154,11 +154,11 @@ futil-latex.def
 frcs.code.tex
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision
 .tex)
-Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
 ))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys.code.tex
-Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgfsys 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 fkeys.code.tex
@@ -181,38 +181,38 @@ fkeysfiltered.code.tex
 \pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
+\c@pgf@counta=\count271
+\c@pgf@countb=\count272
+\c@pgf@countc=\count273
+\c@pgf@countd=\count274
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count273
+\pgf@sys@id@count=\count275
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgf.cfg
-File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+File: pgf.cfg 2020/12/01 v3.1.7a (3.1.7a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfsys-pdftex.def 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfsys-common-pdf.def 2020/12/01 v3.1.7a (3.1.7a)
 )))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfsyssoftpath@smallbuffer@items=\count274
-\pgfsyssoftpath@bigbuffer@items=\count275
+File: pgfsyssoftpath.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfsyssoftpath@smallbuffer@items=\count276
+\pgfsyssoftpath@bigbuffer@items=\count277
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfsysprotocol.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )) (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
 ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -234,7 +234,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcore.code.tex
-Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgfcore 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 .code.tex
@@ -245,7 +245,7 @@ util.code.tex)
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 parser.code.tex
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count276
+\pgfmath@count=\count278
 \pgfmath@box=\box57
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -271,13 +271,13 @@ functions.misc.code.tex)
 functions.integerarithmetics.code.tex)))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 float.code.tex
-\c@pgfmathroundto@lastzeros=\count277
+\c@pgfmathroundto@lastzeros=\count279
 ))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.
 code.tex)
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorepoints.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
 \pgf@picminy=\dimen179
@@ -295,90 +295,90 @@ File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorepathconstruct.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count278
+\pgf@picture@serial@count=\count280
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoregraphicstate.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgflinewidth=\dimen195
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoretransformations.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorequick.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoreobjects.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorepathprocessing.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorearrows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfarrowsep=\dimen199
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoreshade.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count279
-\pgf@shadingcount=\count280
+\pgf@sys@shading@range@num=\count281
+\pgf@shadingcount=\count282
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfexternal@startupbox=\box61
 ))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorelayers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcoretransparency.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorepatterns.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/xxco
 lor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count281
-\XC@countmixins=\count282
+\XC@nummixins=\count283
+\XC@countmixins=\count284
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
 sty
@@ -436,8 +436,8 @@ s.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count283
-\Hy@pagecounter=\count284
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -453,7 +453,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count285
+\Hy@SavedSpaceFactor=\count287
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
@@ -471,7 +471,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count286
+\c@Hy@tempcnt=\count288
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -488,7 +488,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count287
+\Fld@menulength=\count289
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -500,7 +500,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-\Hy@abspage=\count288
+\Hy@abspage=\count290
 
 Package hyperref Message: Stopped early.
 
@@ -517,8 +517,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count289
-\c@bookmark@seq@number=\count290
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -563,36 +563,36 @@ isc.sty)
 woscreens.sty)
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseo
 verlay.sty
-\beamer@argscount=\count291
+\beamer@argscount=\count293
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count292
+\beamer@trivlistdepth=\count294
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 itle.sty)
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbases
 ection.sty
-\c@lecture=\count293
-\c@part=\count294
-\c@section=\count295
-\c@subsection=\count296
-\c@subsubsection=\count297
+\c@lecture=\count295
+\c@part=\count296
+\c@section=\count297
+\c@subsection=\count298
+\c@subsubsection=\count299
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasef
 rame.sty
 \beamer@framebox=\box62
 \beamer@frametitlebox=\box63
 \beamer@zoombox=\box64
-\beamer@zoomcount=\count298
-\beamer@zoomframecount=\count299
+\beamer@zoomcount=\count300
+\beamer@zoomframecount=\count301
 \beamer@frametextheight=\dimen261
-\c@subsectionslide=\count300
+\c@subsectionslide=\count302
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks28
 \framewidth=\dimen262
-\c@framenumber=\count301
+\c@framenumber=\count303
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasev
 erbatim.sty
@@ -601,7 +601,7 @@ erbatim.sty
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasef
 ramesize.sty
 \beamer@splitbox=\box65
-\beamer@autobreakcount=\count302
+\beamer@autobreakcount=\count304
 \beamer@autobreaklastheight=\dimen263
 \beamer@frametitletoks=\toks29
 \beamer@framesubtitletoks=\toks30
@@ -645,8 +645,8 @@ y
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
 )
-\c@figure=\count303
-\c@table=\count304
+\c@figure=\count305
+\c@table=\count306
 \abovecaptionskip=\skip55
 \belowcaptionskip=\skip56
 )
@@ -678,13 +678,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count305
+\inf@bad=\count307
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count306
-\leftroot@=\count307
+\uproot@=\count308
+\leftroot@=\count309
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count308
-\DOTSCASE@=\count309
+\classnum@=\count310
+\DOTSCASE@=\count311
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -693,15 +693,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen272
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count310
-\c@MaxMatrixCols=\count311
+\macc@depth=\count312
+\c@MaxMatrixCols=\count313
 \dotsspace@=\muskip17
-\c@parentequation=\count312
-\dspbrk@lvl=\count313
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
 \tag@help=\toks34
-\row@=\count314
-\column@=\count315
-\maxfields@=\count316
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
 \andhelp@=\toks35
 \eqnshift@=\dimen273
 \alignsep@=\dimen274
@@ -728,7 +728,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip62
 \dth@everypar=\toks43
 )
-\c@theorem=\count317
+\c@theorem=\count319
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 hemes.sty))
@@ -750,23 +750,23 @@ ages.sty
 Package: pgfpages 2011/01/05 ver 0.02
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count318
-\calc@Bcount=\count319
+\calc@Acount=\count320
+\calc@Bcount=\count321
 \calc@Adimen=\dimen281
 \calc@Bdimen=\dimen282
 \calc@Askip=\skip63
 \calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count320
+\calc@Ccount=\count322
 \calc@Cskip=\skip65
 )
-\pgf@logicalpages=\count321
-\pgf@firstshipout=\count322
-\pgf@lastshipout=\count323
-\pgf@currentshipout=\count324
-\pgf@cpn=\count325
-\pgf@shipoutnextto=\count326
+\pgf@logicalpages=\count323
+\pgf@firstshipout=\count324
+\pgf@lastshipout=\count325
+\pgf@currentshipout=\count326
+\pgf@cpn=\count327
+\pgf@shipoutnextto=\count328
 \pgfphysicalheight=\dimen283
 \pgfphysicalwidth=\dimen284
 \pgfpages@shipoutbox=\box75
@@ -830,11 +830,11 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.
 sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count327
+\FV@CodeLineNo=\count329
 \FV@InFile=\read3
 \FV@TabBox=\box76
-\c@FancyVerbLine=\count328
-\FV@StepNumber=\count329
+\c@FancyVerbLine=\count330
+\FV@StepNumber=\count331
 \FV@OutFile=\write5
 ) (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.st
 y
@@ -868,26 +868,26 @@ Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
 tikz.sty
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
 .sty
-Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfnodeparttextbox=\box77
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: pgfmoduleplot.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
 pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgfcomp-version-0-65 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@nodesepstart=\dimen289
 \pgf@nodesepend=\dimen290
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
 pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgfcomp-version-1-18 2020/12/01 v3.1.7a (3.1.7a)
 ))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgff
 or.sty
@@ -897,7 +897,7 @@ ty
 .code.tex))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 ffor.code.tex
-Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
+Package: pgffor 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 .code.tex)
@@ -908,12 +908,12 @@ Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
 ))
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/tikz.code.tex
-Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
+Package: tikz 2020/12/01 v3.1.7a (3.1.7a)
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pg
 flibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@plot@mark@count=\count330
+File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@plot@mark@count=\count332
 \pgfplotmarksize=\dimen293
 )
 \tikz@lastx=\dimen294
@@ -928,23 +928,23 @@ File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
 \tikz@tempbox@bg=\box81
-\tikztreelevel=\count331
-\tikznumberofchildren=\count332
-\tikznumberofcurrentchild=\count333
-\tikz@fig@count=\count334
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 odulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfmatrixcurrentrow=\count335
-\pgfmatrixcurrentcolumn=\count336
-\pgf@matrix@numberofcolumns=\count337
+File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
 )
-\tikz@expandcount=\count338
+\tikz@expandcount=\count340
 
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
 \metropolis@titleseparator@linewidth=\skip67
 \metropolis@progressonsectionpage=\skip68
@@ -978,14 +978,14 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count339
+\c@r@tfl@t=\count341
 \rotFPtop=\skip76
 \rotFPbot=\skip77
 \rot@float@box=\box82
 \rot@mess@toks=\toks50
 ) (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count340
+\c@float@type=\count342
 \float@exts=\toks51
 \float@box=\box83
 \@float@everytoks=\toks52
@@ -995,14 +995,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 hemeserif.sty)
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count341
+\c@tracingmulticols=\count343
 \mult@box=\box85
 \multicol@leftmargin=\dimen302
-\c@unbalance=\count342
-\c@collectmore=\count343
-\doublecol@number=\count344
-\multicoltolerance=\count345
-\multicolpretolerance=\count346
+\c@unbalance=\count344
+\c@collectmore=\count345
+\doublecol@number=\count346
+\multicoltolerance=\count347
+\multicolpretolerance=\count348
 \full@width=\dimen303
 \page@free=\dimen304
 \premulticols=\dimen305
@@ -1053,20 +1053,20 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box126
 \@tempa=\box127
 \@tempa=\box128
-\c@minrows=\count347
-\c@columnbadness=\count348
-\c@finalcolumnbadness=\count349
+\c@minrows=\count349
+\c@columnbadness=\count350
+\c@finalcolumnbadness=\count351
 \last@try=\dimen308
 \multicolovershoot=\dimen309
 \multicolundershoot=\dimen310
 \mult@nat@firstbox=\box129
 \colbreak@box=\box130
-\mc@col@check@num=\count350
+\mc@col@check@num=\count352
 )
 (c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count351
+\l__kernel_color_stack_int=\count353
 \l__pdf_internal_box=\box131
 ) (./slides.aux)
 \openout1 = `slides.aux'.
@@ -1149,7 +1149,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count352
+\c@section@level=\count354
 )
 LaTeX Info: Redefining \ref on input line 146.
 LaTeX Info: Redefining \pageref on input line 146.
@@ -1256,7 +1256,7 @@ Overfull \vbox (0.10692pt too high) detected at line 180
 File: slides_files/figure-beamer/GitHub.png Graphic file (type png)
 <use slides_files/figure-beamer/GitHub.png>
 Package pdftex.def Info: slides_files/figure-beamer/GitHub.png  used on input l
-ine 197.
+ine 201.
 (pdftex.def)             Requested size: 144.33669pt x 79.69633pt.
 [3
 
@@ -1268,7 +1268,7 @@ ine 197.
 \openout4 = `slides.vrb'.
 
 (./slides.vrb
-<slides_files/figure-beamer/Rstudio.png, id=54, 628.3475pt x 220.825pt>
+<slides_files/figure-beamer/Rstudio.png, id=56, 628.3475pt x 220.825pt>
 File: slides_files/figure-beamer/Rstudio.png Graphic file (type png)
 <use slides_files/figure-beamer/Rstudio.png>
 Package pdftex.def Info: slides_files/figure-beamer/Rstudio.png  used on input 
@@ -1281,71 +1281,17 @@ line 27.
 
 (./slides.vrb
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 24.
+(Font)              <10> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 17.
 ) [7
 
 ]
-<slides_files/figure-beamer/GitHub_step1.png, id=71, 1156.32pt x 650.43pt>
-File: slides_files/figure-beamer/GitHub_step1.png Graphic file (type png)
-<use slides_files/figure-beamer/GitHub_step1.png>
-Package pdftex.def Info: slides_files/figure-beamer/GitHub_step1.png  used on i
-nput line 314.
-(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
-
-Overfull \hbox (10.69029pt too wide) in paragraph at lines 314--314
- [] 
- []
-
-
-Overfull \vbox (12.27283pt too high) detected at line 314
- []
-
-[8
-
- <./slides_files/figure-beamer/GitHub_step1.png>]
-<slides_files/figure-beamer/GitHub_step2.png, id=78, 1156.32pt x 650.43pt>
-File: slides_files/figure-beamer/GitHub_step2.png Graphic file (type png)
-<use slides_files/figure-beamer/GitHub_step2.png>
-Package pdftex.def Info: slides_files/figure-beamer/GitHub_step2.png  used on i
-nput line 325.
-(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
-
-Overfull \hbox (10.69029pt too wide) in paragraph at lines 325--325
- [] 
- []
-
-
-Overfull \vbox (12.27283pt too high) detected at line 325
- []
-
-[9
-
- <./slides_files/figure-beamer/GitHub_step2.png>]
-<slides_files/figure-beamer/GitHub_step3.png, id=85, 1156.32pt x 650.43pt>
-File: slides_files/figure-beamer/GitHub_step3.png Graphic file (type png)
-<use slides_files/figure-beamer/GitHub_step3.png>
-Package pdftex.def Info: slides_files/figure-beamer/GitHub_step3.png  used on i
-nput line 336.
-(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
-
-Overfull \hbox (10.69029pt too wide) in paragraph at lines 336--336
- [] 
- []
-
-
-Overfull \vbox (12.27283pt too high) detected at line 336
- []
-
-[10
-
- <./slides_files/figure-beamer/GitHub_step3.png>]
 \openout4 = `slides.vrb'.
 
-(./slides.vrb) [11
+(./slides.vrb) [8
 
 ]
 \openout4 = `slides.vrb'.
@@ -1353,61 +1299,58 @@ Overfull \vbox (12.27283pt too high) detected at line 336
 (./slides.vrb
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 9.
-
-Overfull \hbox (84.88437pt too wide) in paragraph at lines 32--32
-[]\T1/lmtt/m/n/9 ## -- ayapack ------------------------------------------------
----------------------[] 
- []
-
-)
-Overfull \vbox (27.97702pt too high) detected at line 390
- []
-
-[12
+) [9
 
 ]
-<slides_files/figure-beamer/GitHub_step4.png, id=106, 1156.32pt x 650.43pt>
-File: slides_files/figure-beamer/GitHub_step4.png Graphic file (type png)
-<use slides_files/figure-beamer/GitHub_step4.png>
-Package pdftex.def Info: slides_files/figure-beamer/GitHub_step4.png  used on i
-nput line 401.
-(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
+<slides_files/figure-beamer/Rstudio_packagesetup.png, id=90, 322.806pt x 230.05
+95pt>
+File: slides_files/figure-beamer/Rstudio_packagesetup.png Graphic file (type pn
+g)
+<use slides_files/figure-beamer/Rstudio_packagesetup.png>
+Package pdftex.def Info: slides_files/figure-beamer/Rstudio_packagesetup.png  u
+sed on input line 427.
+(pdftex.def)             Requested size: 129.1201pt x 92.02216pt.
 
-Overfull \hbox (10.69029pt too wide) in paragraph at lines 401--401
- [] 
+Overfull \vbox (9.33514pt too high) detected at line 427
  []
 
+[10
 
-Overfull \vbox (12.27283pt too high) detected at line 401
+ <./slides_files/figure-beamer/Rstudio_packagesetup.png>]
+\openout4 = `slides.vrb'.
+
+(./slides.vrb
+<slides_files/figure-beamer/package1.png, id=97, 98.61844pt x 120.45pt>
+File: slides_files/figure-beamer/package1.png Graphic file (type png)
+<use slides_files/figure-beamer/package1.png>
+Package pdftex.def Info: slides_files/figure-beamer/package1.png  used on input
+ line 30.
+(pdftex.def)             Requested size: 54.2403pt x 66.2477pt.
+)
+Overfull \vbox (24.1911pt too high) detected at line 461
  []
 
-[13
+[11
 
- <./slides_files/figure-beamer/GitHub_step4.png>]
-<slides_files/figure-beamer/GitHub_step5.png, id=114, 1156.32pt x 650.43pt>
-File: slides_files/figure-beamer/GitHub_step5.png Graphic file (type png)
-<use slides_files/figure-beamer/GitHub_step5.png>
-Package pdftex.def Info: slides_files/figure-beamer/GitHub_step5.png  used on i
-nput line 412.
-(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
-
-Overfull \hbox (10.69029pt too wide) in paragraph at lines 412--412
- [] 
- []
-
-
-Overfull \vbox (12.27283pt too high) detected at line 412
- []
-
-[14
-
- <./slides_files/figure-beamer/GitHub_step5.png>]
+ <./slides_files/figure-beamer/package1.png>]
 \openout4 = `slides.vrb'.
 
 (./slides.vrb
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 8.
-) [15
+) [12
+
+] [13
+
+]
+\openout4 = `slides.vrb'.
+
+(./slides.vrb) [14
+
+]
+\openout4 = `slides.vrb'.
+
+(./slides.vrb) [15
 
 ]
 \openout4 = `slides.vrb'.
@@ -1417,29 +1360,109 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 ]
 \openout4 = `slides.vrb'.
 
-(./slides.vrb) [17
+(./slides.vrb
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
+) [17
 
 ]
 \openout4 = `slides.vrb'.
 
 (./slides.vrb) [18
 
-]
-\openout4 = `slides.vrb'.
-
-(./slides.vrb
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
-) [19
+] [19
 
 ]
-\openout4 = `slides.vrb'.
+<slides_files/figure-beamer/GitHub_step1.png, id=158, 1156.32pt x 650.43pt>
+File: slides_files/figure-beamer/GitHub_step1.png Graphic file (type png)
+<use slides_files/figure-beamer/GitHub_step1.png>
+Package pdftex.def Info: slides_files/figure-beamer/GitHub_step1.png  used on i
+nput line 613.
+(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
 
-(./slides.vrb) [20
+Overfull \hbox (10.69029pt too wide) in paragraph at lines 613--613
+ [] 
+ []
 
-] [21
 
-]
+Overfull \vbox (12.27283pt too high) detected at line 613
+ []
+
+[20
+
+ <./slides_files/figure-beamer/GitHub_step1.png>]
+<slides_files/figure-beamer/GitHub_step2.png, id=165, 1156.32pt x 650.43pt>
+File: slides_files/figure-beamer/GitHub_step2.png Graphic file (type png)
+<use slides_files/figure-beamer/GitHub_step2.png>
+Package pdftex.def Info: slides_files/figure-beamer/GitHub_step2.png  used on i
+nput line 624.
+(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
+
+Overfull \hbox (10.69029pt too wide) in paragraph at lines 624--624
+ [] 
+ []
+
+
+Overfull \vbox (12.27283pt too high) detected at line 624
+ []
+
+[21
+
+ <./slides_files/figure-beamer/GitHub_step2.png>]
+<slides_files/figure-beamer/GitHub_step3.png, id=172, 1156.32pt x 650.43pt>
+File: slides_files/figure-beamer/GitHub_step3.png Graphic file (type png)
+<use slides_files/figure-beamer/GitHub_step3.png>
+Package pdftex.def Info: slides_files/figure-beamer/GitHub_step3.png  used on i
+nput line 635.
+(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
+
+Overfull \hbox (10.69029pt too wide) in paragraph at lines 635--635
+ [] 
+ []
+
+
+Overfull \vbox (12.27283pt too high) detected at line 635
+ []
+
+[22
+
+ <./slides_files/figure-beamer/GitHub_step3.png>]
+<slides_files/figure-beamer/GitHub_step4.png, id=179, 1156.32pt x 650.43pt>
+File: slides_files/figure-beamer/GitHub_step4.png Graphic file (type png)
+<use slides_files/figure-beamer/GitHub_step4.png>
+Package pdftex.def Info: slides_files/figure-beamer/GitHub_step4.png  used on i
+nput line 646.
+(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
+
+Overfull \hbox (10.69029pt too wide) in paragraph at lines 646--646
+ [] 
+ []
+
+
+Overfull \vbox (12.27283pt too high) detected at line 646
+ []
+
+[23
+
+ <./slides_files/figure-beamer/GitHub_step4.png>]
+<slides_files/figure-beamer/GitHub_step5.png, id=186, 1156.32pt x 650.43pt>
+File: slides_files/figure-beamer/GitHub_step5.png Graphic file (type png)
+<use slides_files/figure-beamer/GitHub_step5.png>
+Package pdftex.def Info: slides_files/figure-beamer/GitHub_step5.png  used on i
+nput line 657.
+(pdftex.def)             Requested size: 317.98016pt x 178.86383pt.
+
+Overfull \hbox (10.69029pt too wide) in paragraph at lines 657--657
+ [] 
+ []
+
+
+Overfull \vbox (12.27283pt too high) detected at line 657
+ []
+
+[24
+
+ <./slides_files/figure-beamer/GitHub_step5.png>]
 \tf@nav=\write7
 \openout7 = `slides.nav'.
 
@@ -1454,31 +1477,34 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25475 strings out of 481865
- 496867 string characters out of 5929310
- 753559 words of memory out of 5000000
- 41127 multiletter control sequences out of 15000+600000
- 593771 words of font info for 83 fonts, out of 8000000 for 9000
+ 25455 strings out of 481331
+ 495528 string characters out of 5916230
+ 758196 words of memory out of 5000000
+ 41631 multiletter control sequences out of 15000+600000
+ 462809 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  107i,13n,114p,1829b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
-nc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
-m-mathit.enc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
-/lm/lm-ts1.enc}<c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
-ublic/lm/lmmi10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/ty
-pe1/public/lm/lmss10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fon
-ts/type1/public/lm/lmss8.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/tex
-mf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/ayami/AppData/Roaming/TinyTe
-X/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/ayami/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/ayami/AppData/Roam
-ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt9.pfb><c:/Users/ayami/AppData/
-Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on slides.pdf (21 pages, 1549703 bytes).
+nc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.
+enc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+lm-ts1.enc}{c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/l
+m/lm-mathit.enc}<c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/lm/lmmi10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/lm/lmr10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dist/fon
+ts/type1/public/lm/lmss10.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmss8.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/texmf
+-dist/fonts/type1/public/lm/lmss9.pfb><c:/Users/ayami/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/ayami/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/ayami/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/ayami/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/ayami/App
+Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt9.pfb><c:/Users/ayami
+/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
+Output written on slides.pdf (24 pages, 1595215 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

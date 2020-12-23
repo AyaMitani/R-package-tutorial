@@ -136,7 +136,7 @@ install.packages("available")
 library(available)
 ```
 ```{r}
-available("ayapack", browse = FALSE)
+#available("ayapack", browse = FALSE)
 ```
 
 
@@ -152,13 +152,39 @@ available("ayapack", browse = FALSE)
 \end{figure}
 
 
+### In RStudio
+This will create the following files and folders
+
+\small
+* \alert{packagename.Rproj}: This indicates that the directory is a project
+* \alert{DESCRIPTION}: This is where all the meta-data about your package goes -- you can edit this file manually 
+* \alert{NAMESPACE}: This file indicates what needs to be exposed to users for your R package -- we will recreate this file using `document()` (see next slide)
+* \alert{R}: This is where all your R code goes for your package
+* \alert{man}: This is where the manuals for your functions will be saved
+* Don't worry too much about the rest (.gitignore, .Rbuildingore)
+
+\begin{figure}
+  \includegraphics[scale=0.55]{slides_files/figure-beamer/package1.png}
+\end{figure}
+
+
+
 
 ### In RStudio
-Load libraries
+Next, load the `devtools` package
 ```{r, eval = FALSE}
 library(devtools)
-library(here)
 ```
+
+Then, delete the NAMESPACE file
+
+
+
+### Great resources
+
+* [Book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/)
+* [devtools cheatsheet](https://rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf)
+* [Blog post by MZES Social Science Data La](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/)
 
 ### Turn this project into a package
 ```{r, eval = FALSE}

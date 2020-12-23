@@ -188,6 +188,10 @@
   Website that hosts software development and version control using Git
 \item
   Free basic services
+\item
+  Truly open source
+\item
+  ``Facebook for programmers''
 \end{itemize}
 
 \begin{figure}
@@ -203,14 +207,42 @@
 \tightlist
 \item
   For yourself
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Save time
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Keep track of your functions
+    \item
+      Have all your functions in one place
+    \end{itemize}
+  \item
+    Document your work
+  \item
+    For publishing papers
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Increasingly, (bio)statistical journals ask for R package
+      development of novel method
+    \end{itemize}
+  \end{itemize}
 \item
   For others
 
   \begin{itemize}
   \tightlist
   \item
-    Increasingly, (bio)statistical journals ask for R package
-    development of novel method
+    If package is useful to you, it is also useful to someone else
+  \item
+    Readers of your paper can use proposed method
+  \item
+    Advance science!
   \end{itemize}
 \end{itemize}
 
@@ -229,6 +261,8 @@
   Collaboration
 \item
   Back-up method
+\item
+  Version-control using \alert{git} (more on this later)
 \end{itemize}
 
 \end{frame}
@@ -241,9 +275,9 @@
 \item
   R Studio (\url{https://rstudio.com/})
 \item
-  \texttt{devtools} package
+  \texttt{devtools} \& \texttt{roxygen2} packages
 \item
-  Git (\url{https://git-scm.com/})
+  Git (install from \url{https://git-scm.com/})
 \item
   GitHub account (\url{https://github.com/})
 \end{itemize}
@@ -269,17 +303,10 @@
 
 \textbf{Major steps}
 
+\small
+
 \begin{enumerate}
 \tightlist
-\item
-  Create new repo in GitHub
-
-  \begin{enumerate}
-  [i)]
-  \tightlist
-  \item
-    Copy URL
-  \end{enumerate}
 \item
   Open R Studio
 
@@ -287,75 +314,70 @@
   [i)]
   \tightlist
   \item
-    New Project \(\rightarrow\) Version Control \(\rightarrow\) Git
+    New Project \(\rightarrow\) New Directory \(\rightarrow\) R Package
     \(\rightarrow\) Enter info \(\rightarrow\) Create Project
-  \item
-    Install \texttt{devtools}
-  \item
-    Build package
   \end{enumerate}
+\item
+  Write functions
+
+  \begin{enumerate}
+  [i)]
+  \tightlist
+  \item
+    Each function should be saved in its own file
+  \item
+    Write package description and document functions
+  \end{enumerate}
+\item
+  Create new repo in GitHub
+
+  \begin{enumerate}
+  [i)]
+  \tightlist
+  \item
+    Repo name \(=\) package name
+  \end{enumerate}
+\item
+  Connect to GitHub
 \item
   Pull + Commit + Push
 \item
   Use/share package with \texttt{install\_github()}!
 \end{enumerate}
 
-\end{frame}
+\centering
 
-\begin{frame}{In GitHub}
-\protect\hypertarget{in-github}{}
-
-First, log in and go to Repositories
-
-\begin{figure}
-  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step1.png}
-\end{figure}
+\alert{There is more than one way!}
 
 \end{frame}
 
-\begin{frame}{In GitHub}
-\protect\hypertarget{in-github-1}{}
-
-Then, create new repository
-
-\begin{figure}
-  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step2.png}
-\end{figure}
-
-\end{frame}
-
-\begin{frame}{In GitHub}
-\protect\hypertarget{in-github-2}{}
-
-Repo name should be same as package name
-
-\begin{figure}
-  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step3.png}
-\end{figure}
-
-\end{frame}
-
-\begin{frame}[fragile]{Aside: Naming R package}
-\protect\hypertarget{aside-naming-r-package}{}
+\begin{frame}[fragile]{Naming R package}
+\protect\hypertarget{naming-r-package}{}
 
 Some tips:
 
 \begin{itemize}
 \tightlist
 \item
-  Make it short
+  Make it simple \& short
 \item
-  If one word, use all lowercase
+  Make it unique (use \texttt{available} package -- see next slide)
 \item
-  If multiple words, mix lowercase and uppercase
+  Must start with a letter \& cannot end with a period
 \item
-  Avoid using characters (\texttt{.}, \texttt{\_}) between words
+  Do not use special characters
+\item
+  Trend towards using all lower case
+\item
+  Hadley's book has
+  \href{https://r-pkgs.org/workflows101.html?q=naming\#naming}{more
+  information}
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}[fragile]{Aside: Naming R package}
-\protect\hypertarget{aside-naming-r-package-1}{}
+\begin{frame}[fragile]{Naming R package}
+\protect\hypertarget{naming-r-package-1}{}
 
 Check to see if name is unique, especially if you plan to submit to CRAN
 \footnotesize
@@ -369,59 +391,104 @@ Check to see if name is unique, especially if you plan to submit to CRAN
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{available}\NormalTok{(}\StringTok{"ayapack"}\NormalTok{, }\DataTypeTok{browse =} \OtherTok{FALSE}\NormalTok{)}
+\CommentTok{#available("ayapack", browse = FALSE)}
 \end{Highlighting}
 \end{Shaded}
 
-\begin{verbatim}
-## -- ayapack ---------------------------------------------------------------------
-## Name valid: <U+2714>
-## Available on CRAN: <U+2714> 
-## Available on Bioconductor: <U+2714>
-## Available on GitHub:  <U+2714> 
-## Abbreviations: http://www.abbreviations.com/ayapack
-## Wikipedia: https://en.wikipedia.org/wiki/ayapack
-## Wiktionary: https://en.wiktionary.org/wiki/ayapack
-## Urban Dictionary:
-##   Not found.
-## Sentiment:???
-\end{verbatim}
-
 \end{frame}
 
-\begin{frame}{Back to GitHub}
-\protect\hypertarget{back-to-github}{}
+\begin{frame}{In RStudio}
+\protect\hypertarget{in-rstudio}{}
 
-Finish creating new repo
+\begin{itemize}
+\tightlist
+\item
+  New Project \(\rightarrow\) New Directory \(\rightarrow\) R Package
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Enter package name
+  \item
+    Optional: Select R scripts that include your functions (if you leave
+    blank, a default function is included)
+  \item
+    Select subdirectory where you want to save the package (location is
+    not too important since the final product will be saved on Github)
+  \item
+    Check \alert{`Create a git repository`}
+  \end{itemize}
+\end{itemize}
 
 \begin{figure}
-  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step4.png}
-\end{figure}
-
-\end{frame}
-
-\begin{frame}{In GitHub}
-\protect\hypertarget{in-github-3}{}
-
-Finally, copy URL
-
-\begin{figure}
-  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step5.png}
+  \includegraphics[scale=0.4]{slides_files/figure-beamer/Rstudio_packagesetup.png}
 \end{figure}
 
 \end{frame}
 
 \begin{frame}[fragile]{In RStudio}
-\protect\hypertarget{in-rstudio}{}
+\protect\hypertarget{in-rstudio-1}{}
 
-Load libraries
+This will create the following files and folders
+
+\small
+
+\begin{itemize}
+\tightlist
+\item
+  \alert{packagename.Rproj}: This indicates that the directory is a
+  project
+\item
+  \alert{DESCRIPTION}: This is where all the meta-data about your
+  package goes -- you can edit this file manually
+\item
+  \alert{NAMESPACE}: This file indicates what needs to be exposed to
+  users for your R package -- we will recreate this file using
+  \texttt{document()} (see next slide)
+\item
+  \alert{R}: This is where all your R code goes for your package
+\item
+  \alert{man}: This is where the manuals for your functions will be
+  saved
+\item
+  Don't worry too much about the rest (.gitignore, .Rbuildingore)
+\end{itemize}
+
+\begin{figure}
+  \includegraphics[scale=0.55]{slides_files/figure-beamer/package1.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}[fragile]{In RStudio}
+\protect\hypertarget{in-rstudio-2}{}
+
+Next, load the \texttt{devtools} package
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(devtools)}
-\KeywordTok{library}\NormalTok{(here)}
 \end{Highlighting}
 \end{Shaded}
+
+Then, delete the NAMESPACE file
+
+\end{frame}
+
+\begin{frame}{Great resources}
+\protect\hypertarget{great-resources}{}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://r-pkgs.org/}{Book by Hadley Wickham and Jenny Bryan}
+\item
+  \href{https://rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf}{devtools
+  cheatsheet}
+\item
+  \href{https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/}{Blog
+  post by MZES Social Science Data La}
+\end{itemize}
 
 \end{frame}
 
@@ -531,6 +598,61 @@ Now run
 
 \begin{frame}{Add data set}
 \protect\hypertarget{add-data-set}{}
+
+\end{frame}
+
+\begin{frame}{In GitHub}
+\protect\hypertarget{in-github}{}
+
+First, log in and go to Repositories
+
+\begin{figure}
+  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step1.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{In GitHub}
+\protect\hypertarget{in-github-1}{}
+
+Then, create new repository
+
+\begin{figure}
+  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step2.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{In GitHub}
+\protect\hypertarget{in-github-2}{}
+
+Repo name should be same as package name
+
+\begin{figure}
+  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step3.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{In GitHub}
+\protect\hypertarget{in-github-3}{}
+
+Finish creating new repo
+
+\begin{figure}
+  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step4.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{In GitHub}
+\protect\hypertarget{in-github-4}{}
+
+Finally, copy URL
+
+\begin{figure}
+  \includegraphics[scale=0.275]{slides_files/figure-beamer/GitHub_step5.png}
+\end{figure}
 
 \end{frame}
 
