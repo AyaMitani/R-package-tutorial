@@ -1,7 +1,7 @@
-How to write an R package and publish it on GitHub
+Write your own R package and share it on GitHub
 ========================================================
 author: Aya Mitani
-date: January 14, 2021
+date: January 19, 2021
 width: 1440
 height: 900
 font-family: 'Helvetica'
@@ -79,6 +79,9 @@ What do you need to write an R package?
 - `devtools` \& `roxygen2` \& `usethis` packages
 - Git (install from https://git-scm.com/)
 - GitHub account (https://github.com/)
+- `Rtools` package (https://cran.r-project.org/bin/windows/Rtools/)
+  + Not necessary if you stick to base R and add-on packages on CRAN 
+  + Good idea to install it eventually
 
 ### Some other useful packages
 
@@ -301,7 +304,7 @@ Every data set should come with a description
 
 * Create a `.R` file and add `roxygen2` comments
 * Write the name of the data at the end (see next slide)
-* Save the file in `R/` subdirectory 
+* Save the file in `R/` subdirectory with the name `exdata.R`
 * `devtools::document()` to convert the comments to documentation
 * See the documentation by `?exdata`
 
